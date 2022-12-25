@@ -1,0 +1,162 @@
+*{
+    margin:0; 
+    padding:0; 
+    box-sizing:border-box;
+    }
+
+    .for_background{
+        background-image: url(background_zichris.png);
+        background-size: cover;
+    }
+    .for_background:hover{
+        opacity: 1;
+    }
+
+    .logo{
+        margin-left: 35px;
+    }
+
+    /*@keyframes header {
+        0% {background-color: white; left: 0px; top: 0px;}
+        25% {background-color: yellow; left: 200px; top: 0px;}
+        
+    }*/
+  
+    header{
+    width: 100%; height: 100vh;
+    background-color: white;
+    /*background-repeat: no-repeat;
+    background-size: cover;*/
+    animation-name: header;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    }
+    nav{
+    /*position: fixed;*/
+    width: 100%; height: 13vh;
+    background: lightskyblue;
+    opacity: 1;
+    display: flex; justify-content: space-between;
+    align-items: center;
+    }
+    nav .mainmenu{
+    width: 40%;
+    display: flex; justify-content: space-around;
+    }
+    main{
+    width: 100%; height: 65vh;
+    display: flex; justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 25px;
+    font-style: oblique;
+    }
+
+    li{
+        font-size: 20px;
+        list-style-type: none;
+    }
+
+    .section2{
+        background-color: lightgray;
+        background-image: linear-gradient(lightgray, red);
+        
+    }
+    
+
+    .container1{
+        max-width: 1000px;
+        margin: 0 auto;
+        padding: 10px 20px;
+        justify-content: space-around;
+        display: flex;
+        align-items: center;
+    
+        
+    }
+
+    .para{
+        font-size: 15px;
+
+    }
+
+    h4{
+        font-size: 25px;
+        color: red;
+    }
+    
+    div.one {
+        margin: 5px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        float: left;
+        width: 179px;
+      }
+      
+      div.one:hover {
+        border: 1px solid #777;
+      }
+      
+      div.one img {
+        width: 100%;
+        height: 200px;
+      }
+      
+      div.desc {
+        padding: 15px;
+        text-align: center;
+      }
+
+      .container2{
+        width: 100%; height: 35vh;
+        display: flex; justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 35px;
+        font-style: oblique;
+        background-color: whitesmoke;
+        }
+
+      .lastClass{
+        max-width: 1500px;
+        margin: 0 auto;
+        height: 70px;
+        padding: 10px 20px;
+        justify-content: space-around;
+        display: flex;
+        align-items: center;
+        background-color: lightskyblue;
+        font-style: italic;
+        font-size: medium;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: white;
+        
+      }
+      .lastClass:hover{
+        background-color: rgb(112, 50, 6) ;
+        +
+      }
+
+      input{
+        border: 2px solid white;
+        border-radius: 5px;
+        padding: 5px;
+        background-color: white;
+        color: red;
+        margin-top: 15px;
+      }
+
+      h2{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        text-align: center;
+        font-size: 25px;
+        font-style: oblique;
+
+      }
+
+      
+    
+      
+
+
